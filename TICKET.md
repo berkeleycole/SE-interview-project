@@ -9,9 +9,10 @@ As a partner user, I expect to be able to filter candidates by their category an
 - Default list view is ALL CATEGORIES
 - Which list is currently selected should always display in the dropdown
 - Candidate Categories dropdown options should be:
-        - CUSTOMER SUCCESS
-        - SALES
-        - HR
-        - SOFTWARE AND DATA
-        - ALL CATEGORIES
+        - [ ] CUSTOMER SUCCESS
+        - [ ] SALES
+        - [ ] HR
+        - [ ] PROJECT MANAGEMENT
+        - [ ] SOFTWARE AND DATA
+        - [ ] ALL CATEGORIES
 
