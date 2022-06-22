@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SHIFT QA INTERVIEW PROJECT
+### Why this project
+The Shift QA role requires the technical ability to read existing code and write tests, but also leans heavily on a candidate's ability to translate features into test scenarios and communicate with all parties/departments involved in feature sign off and deployment. This project is designed to test all of these skills and will be evaluated in a cross-departmental panel interview with members of the engineering and product team.
 
-## Getting Started
+### About the repo
+For this project, you are provided a basic React application built with NextJS (https://nextjs.org/). You will find a small set of components in the `src` folder and a single page in the `pages` folder (index.js in pages is the only page, and also the root route). This is a scaled down version of Shift's stack, which is also built on NextJS.
 
-First, run the development server:
+There is no API for this project, instead, static data is coming from `candidates.json` as an API mock.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Some additional NextJS documentation can be found in `NEXTJS.md`, you can refer to their documentation for more information about the library as needed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In the `TICKET.md` file, you will find an example feature ticket. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Testing in the repo
+The test framework included in this example repo is Jest with React Testing Library. Tests are held in folders called `__tests__` and tests are run with `yarn test`. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Project instructions and requirements
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Read the `TICKET.md` file to understand the feature task and its acceptance criteria. For this QA role, you are not required to write the code to satisfy the ticket, the only requirement is that you:
 
-## Learn More
+- write the test scenarios you think are necessary to cover the feature acceptance criteria (these can be added in a text or md file included in the project)
+- write down any questions you would ask for further clarification
+- write at least one Jest test (test should fail) to prove a test scenario you wrote
 
-To learn more about Next.js, take a look at the following resources:
+##### Optional:
+If you want to write the feature code that makes the automated test pass, you are welcome to, but you should write the tests first to ensure it was failing before the code was added (common TDD flow and all that).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### About the Interview
+The interview will be conversational, with time for you to ask any questions, walk us through your process, ask any questions you had, and explain things like:
+- why you chose the test scnenarios you did
+- where any uknown or areas for further discussion came up
+- how you would go about writing the remaining automated tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+During the interview you will be able to share your screen to walk us through any code or text files, you can also put your fork of the repo up on github and share the link with us. 
