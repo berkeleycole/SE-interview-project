@@ -5,7 +5,7 @@ The Shift Software Engineer role requires the technical ability to read existing
 ### About the repo
 For this project, you are provided a basic React application built with NextJS (https://nextjs.org/). You will find a small set of components in the `src` folder and a single page in the `pages` folder (index.js in pages is the only page, and also the root route). This is a scaled down version of Shift's stack, which is also built on NextJS.
 
-There is no API for this project, instead, static data is coming from `candidates.json` as an API mock.
+There is no API for this project, instead, static data comes from `candidates.json` as an API mock.
 
 In the `TICKET.md` file, you will find an example feature ticket that is similar to tickets Shift engineering receives from the product team. 
 
@@ -17,13 +17,13 @@ The test framework included in this example repo is Jest with React Testing Libr
 Read the `TICKET.md` file to understand the feature task and its acceptance criteria. 
 
 - write down any questions you would ask for further clarification on the ticket/feature requirements or project in general
-- add the components and code you think are necessary to implement the feature. Be intentional about how you separate your componenets and be prepared to explain why you chose the approach you did.
+- add the components and code you think are necessary to implement the feature. Be intentional about your componenets and be prepared to explain why you chose the approach you did.
 - write the test scenarios you think are necessary to cover the feature acceptance criteria (these can be added in a text or md file included in the project)
-- (optional) write jest tests for the test scenarios you already identified if you want to follow TDD flow, tell us about how you did that
+- (optional) write jest tests for the test scenarios you already identified. If you want to follow TDD flow, tell us about how you did that
 
 
 ### About the Interview
-The interview will be conversational, with time for you to ask any questions, walk us through your process, and explain things like:
+The interview will be conversational with time for you to ask any questions, walk us through your process, and explain things like:
 - why you chose the components/approach/logic you did
 - where any unknown or areas for further discussion came up
 - how you would go about writing automated tests
